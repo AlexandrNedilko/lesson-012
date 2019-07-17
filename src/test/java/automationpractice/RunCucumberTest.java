@@ -1,3 +1,8 @@
+/*Create cucumber project form cucumber-archetype Maven
+        plugin
+        https://docs.cucumber.io/guides/10-minute-tutorial/
+        - Implement few steps.*/
+
 package automationpractice;
 
 import cucumber.api.CucumberOptions;
