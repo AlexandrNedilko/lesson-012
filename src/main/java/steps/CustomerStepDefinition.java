@@ -23,7 +23,7 @@ public class CustomerStepDefinition extends BaseStepDefinition {
         driver.manage().window().maximize();
     }
 
-    @And("^open main page$")
+    @Given("^open main page$")
     public void openMainPage() {
         driver.get(config.getProperty("baseurl"));
     }
